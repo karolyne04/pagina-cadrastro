@@ -1,0 +1,51 @@
+body {
+    background-color: #ef5350;
+    width: 95%;
+}
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    margin-top: 3rem;
+    width: 30%;
+    height: 380px;
+    background-color: #fff;
+
+}
+.forms {
+     width: 97%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.80rem;
+}
+.forms text h2 {
+    clear: both;
+}
+.forms input {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ef5350;
+    border-radius: 10px;
+}
+.btn {
+    width: 85%;
+}
+.btncadrastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.89rem;
+    background-color: #ef5350;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ef5350;
+    width: 100%;
+    height: 25px;
+}
