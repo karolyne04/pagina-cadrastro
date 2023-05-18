@@ -1,32 +1,35 @@
 body {
     background-color: #ef5350;
-    width: 95%;
+    width: 98%;
 }
 .container {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    height: 500px;
+    width: 60%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+   /* align-items: center;
+    justify-content: center;*/
+    
 }
 .card {
-    margin-top: 3rem;
-    width: 30%;
-    height: 380px;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 400px;
     background-color: #fff;
 
 }
 .forms {
-     width: 97%;
-    
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     gap: 0.80rem;
-}
-.forms text h2 {
-    clear: both;
 }
 .forms input {
     width: 80%;
@@ -35,12 +38,14 @@ body {
     border-radius: 10px;
 }
 .btn {
-    width: 85%;
+    width: 87%;
 }
 .btncadrastro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     padding: 0.89rem;
     background-color: #ef5350;
     color: #fff;
